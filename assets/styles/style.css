@@ -1,17 +1,26 @@
-div{
-  height: 100px;
-  border: 1px solid #000;
+
+header {
+  height: 50px;
+  border: 1px solid black;
+}
+
+aside {
+  border: 1px solid black;
+  float: right;
+  clear: both;
+  width: 300px;
+  height:700px;
+  margin-top: 15px;
+}
+
+.posts {
+  float: left;
   margin-bottom: 10px;
-  text-align: center;
-  width: 30%;
+  border: 1px solid black
 }
 
-p {
-  font-family: Helvetica;
-}
-
-.half {
-}
-
-.full{
+.avatar {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
 }
